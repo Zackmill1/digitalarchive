@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+}
+.container{
+    position: absolute;
+    margin: 0 auto;
+    width: 1080px;
+}
+
+.intro_img {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.tree_img{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    
+}
+
+.title-text{
+    color: orangered;
+    position: absolute;
+    width: 600px;
+    height: 300px;
+    margin: 20% 30%;
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Mansalva', cursive;
+   
+}
+
+.title-text a{
+    border: 4px solid orangered;
+    border-bottom-color: orangered;
+    padding: 10px 25px;
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-top: 20px;
+    display: inline-block;
+    color: orangered;
+    font-family: 'Mansalva', cursive;
+    
+}
+
+
+
+
+/*--navbar----------------------------*/
+.navbar {
+    
+    display: flex;
+    padding: 16px;
+    font-family: sans-serif;
+    color: coral;
+    position: relative;
+    width: 1080px;
+    margin: 0 auto;
+    top: 0;
+    overflow: hidden;
+    font-family: 'Mansalva', cursive;
+    
+    
+}
+
+.navbar_items,
+  .navbar {
+    flex-direction: column;
+  }
+.navbar a {
+    color: orangered;
+    font-size: 35px; 
+    text-decoration: none;
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+}
+.navbar a:hover {
+    color: gray;
+}
+.navbar_link-brand {
+    font-size: 16px;
+}
+.navbar_link {
+    padding: 8px 20px;
+}
+.navbar .active {
+    color: orangered;
+}
+.navbar_items {
+    font-size: 16px;
+    display:none;
+}
+.navbar_items-right {
+    margin-left:0;
+}
+.navbar_link-toggle {
+    display: none;
+    font-size: 1.4em;
+    color: orangered;
+}
+.navbar_toggleShow {
+    display: flex;
+  }
+.navbar_link-toggle {
+    right: 10%;
+    align-self: flex-end;
+    display: initial;
+    position: absolute;
+    cursor: pointer;
+} 
+.nav_img {
+    width: 100px;
+}
+
+/*--navbar----------------------------*/
